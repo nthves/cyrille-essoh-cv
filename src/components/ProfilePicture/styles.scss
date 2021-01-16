@@ -1,0 +1,9 @@
+#profile-picture {
+    .card-img-overlay {
+        text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+
+        .position-relative {
+            top: calc(100% - 60px);
+        }
+    }
+}
