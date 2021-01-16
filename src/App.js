@@ -9,13 +9,13 @@ import ProfileSummary from "./components/ProfileSummary";
 import SocialMedia from "./components/SocialMedia";
 
 const App = () => (
-    <div className="container-fluid">
+    <div className="container-fluid" id="app">
         <div className="row">
-            <div className="col-3">
+            <div className="col-sm-12 col-md-5 col-lg-4 bg-gold-drop">
                 <ProfilePicture />
                 <ProfileSummary />
             </div>
-            <div className="col pt-3">
+            <div className="col-sm-12 col-md-7 col-lg-8 pt-3">
                 <h5 className="mb-4">Diplômes et Formations</h5>
                 <ExperienceItem left="D'octobre 2017 à juin 2019">
                     <h6 className="text-uppercase">

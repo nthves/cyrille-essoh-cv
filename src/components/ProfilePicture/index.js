@@ -2,7 +2,10 @@ import profile from "../../assets/images/profile.jpeg";
 import "./styles.scss";
 
 const ProfilePicture = () => (
-    <div className="card text-white border-0 bg-rajah" id="profile-picture">
+    <div
+        className="card text-white border-0 bg-rajah rounded-0"
+        id="profile-picture"
+    >
         <img src={profile} className="card-img rounded-0" alt="Cyrille Essoh" />
         <div className="card-img-overlay text-center">
             <div className="position-relative">

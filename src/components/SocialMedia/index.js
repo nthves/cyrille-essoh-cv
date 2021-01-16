@@ -3,7 +3,7 @@ import "./styles.scss";
 const SocialMedia = () => (
     <div className="container-fluid pb-3" id="social-media">
         <div className="row">
-            <div className="col">
+            <div className="col-md-6 col-lg-4 py-3">
                 <a
                     href="https://www.linkedin.com/in/Cyrille%20Essoh"
                     title="LinkedIn Cyrille Essoh"
@@ -13,7 +13,7 @@ const SocialMedia = () => (
                     <i className="bi bi-linkedin"></i> / Cyrille Essoh
                 </a>
             </div>
-            <div className="col">
+            <div className="col-md-6 col-lg-4 py-3">
                 <a
                     href="https://www.facebook.com/cyril.essohmisse"
                     title="Facebook Cyrille Essoh"
@@ -23,7 +23,7 @@ const SocialMedia = () => (
                     <i className="bi bi-facebook"></i> / cyrille.essohmisse
                 </a>
             </div>
-            <div className="col">
+            <div className="col-md-6 col-lg-4 py-3">
                 <a
                     href="skype:Cyrille Essoh?call"
                     title="Skype Cyrille Essoh"

@@ -4,7 +4,7 @@ import ProfileSummaryMainItem from "../ProfileSummaryMainItem";
 import "./styles.scss";
 
 const ProfileSummary = () => (
-    <div id="profile-summary" className="bg-gold-drop text-white">
+    <div id="profile-summary" className="text-white">
         <ul className="list-unstyled pt-4 pb-4 mb-0 ml-5">
             <ProfileSummaryMainItem icon="bi-envelope-fill">
                 <a href="mailto:cyrilmisse1@gmail.com" className="text-white">
