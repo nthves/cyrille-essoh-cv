@@ -2,7 +2,7 @@
     "name": "cyrille-essoh-cv.github.io",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://nthves.github.io/cyrille-essoh-cv.github.io/",
+    "homepage": "https://nthves.github.io/cyrille-essoh-cv/",
     "dependencies": {
         "@testing-library/jest-dom": "^5.11.4",
         "@testing-library/react": "^11.1.0",
